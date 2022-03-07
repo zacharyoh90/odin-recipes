@@ -1,8 +1,26 @@
 body {
+  padding: 1em;
   background-color: ivory;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
 }
 
 h1 {
+  color: lightcoral;
+}
+
+p {
+  color: lavender;
+}
+
+#navbar {
+  grid-auto-columns: 4;
+}
+
+#navbar-col-1 {
+  grid-column-start: auto;
+}
+
+#navbar-col-4 {
+  grid-column-end: auto;
 }
